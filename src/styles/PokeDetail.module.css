@@ -1,0 +1,140 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px) opacity(40%);
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.revContainer {
+  width: 25vw;
+
+  margin: 2%;
+
+  border-radius: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  z-index: 100;
+}
+
+.imgCont {
+  width: 100%;
+  max-height: 70%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  margin-top: -20px;
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;*/
+}
+
+.imgCont2 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: /*#b64844*/ white;
+}
+
+.img {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 250px;
+  z-index: 200;
+}
+
+.name {
+  font-family: "Roboto";
+  color: white;
+  font-size: 32px;
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.infoCont {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.buttonCont {
+  width: 100%;
+  text-align: right;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  font-family: "Roboto";
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.dataCont {
+  margin: 10px;
+  height: 50%;
+  text-align: left;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.flexy {
+  text-align: end;
+}
+
+.margin {
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.title {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: #2b2942;
+  margin: 2px;
+}
+
+.type {
+  padding: 3px;
+  width: 50px;
+  border-radius: 20px;
+}
+
+.tipo {
+  width: 50px;
+}
+
+.p {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #2b2942;
+  margin: 2px;
+}
+
+.pId {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 900;
+  color: #2b2942;
+  margin: 2px;
+}

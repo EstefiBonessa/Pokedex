@@ -1,0 +1,30 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.card {
+  width: 270px;
+  height: 400px;
+  border: solid 1px black;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 3px 3px 10px #2f3a55;
+  border: none;
+}
+
+.name {
+  font-family: "Roboto";
+  margin-top: 0%;
+  color: #2b2942;
+  font-size: 30px;
+  font-weight: 700;
+}
